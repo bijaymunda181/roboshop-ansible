@@ -4,7 +4,6 @@
   vars:
     component: catalogue
   tasks:
-    tasks:
       - name: nodejs SETUP
         ansible.builtin.import_tasks: nodejs.yml
 
